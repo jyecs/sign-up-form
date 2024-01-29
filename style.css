@@ -38,4 +38,23 @@ body {
 
 .banner-two {
     flex: 2 0 0;
+    background-color: #E5E7EB;
+}
+
+form  {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.grey-background {
+    height: 100%;
+    flex: 1 0 0;
+}
+
+.lighter-background {
+    background-color: white;
+    flex: 0.9 0 0;
+    box-shadow: 0px 3px 10px -8px;
 }
