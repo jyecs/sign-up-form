@@ -50,10 +50,10 @@ form > div:nth-child(1) {
 }
 
 form > div > * {
-    margin-left: 5%;
+    margin-left: 40px;
 } 
 
-form  {
+form {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -61,13 +61,18 @@ form  {
 }
 
 .grey-background {
-    flex: 0 1 0;
+    flex: 1.2 1 0;
 }
 
 .lighter-background {
     background-color: white;
-    flex: 0 0.9 30%;
+    flex: 1 0.8 0;
     box-shadow: 0px 3px 10px -8px;
+}
+
+.lighter-background > p {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .input-container {
@@ -79,4 +84,28 @@ form  {
     display: flex;
     flex-direction: column;
     margin-right: 100px;
+}
+
+.form-pair > input:nth-last-child(n+1) {
+    margin-bottom: 15px;
+}
+
+.form-pair > label {
+    font-size: 12px;
+}
+
+.form-pair > input {
+    font-size: 16px;
+    border: 1.5px #E5E7EB solid;
+    border-radius: 2px;
+    box-shadow: none;
+}
+
+input:focus {
+    outline-color: blue;
+    box-shadow: 3px 3px 8px -6px;
+}
+
+input:invalid {
+    outline-color: red;
 }
