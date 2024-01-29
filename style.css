@@ -92,6 +92,7 @@ form {
 
 .form-pair > label {
     font-size: 12px;
+    font-weight: bold;
 }
 
 .form-pair > input {
@@ -99,6 +100,7 @@ form {
     border: 1.5px #E5E7EB solid;
     border-radius: 2px;
     box-shadow: none;
+    width: 300px;
 }
 
 input:focus {
@@ -108,4 +110,27 @@ input:focus {
 
 input:invalid {
     outline-color: red;
+}
+
+.grey-background > button {
+    background-color: #596d48;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    box-shadow: 3px 3px 12px -8px black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.create-account > p {
+    font-weight: normal;
+}
+
+.grey-background > p > span {
+    color: #596d48;
+    font-weight: bold;
 }
