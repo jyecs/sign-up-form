@@ -1,4 +1,20 @@
 @font-face {
     font-family: odin-lined;
-    src: url(./assets/Norse-Bold.otf);
+    src: url("./assets/Norse-Bold.otf");
+}
+body {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    height: 100vh;
+}
+
+.banner-one {
+    flex: 1 0 0;
+    background-image: url("./assets/halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: cover;
+}
+
+.banner-two {
+    flex: 2.5 0 0;
 }
